@@ -164,80 +164,63 @@ nav img {
 }
 
 /*About us section*/
-#aboutUs h2{
-    font-size: 36px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    width: 60%;
-    margin: 50px auto;
-    position: relative;
-    text-align: center;
-
-}
 
 #aboutUs {
-    text-align: center;
-    margin-bottom: 100px;
-}
-
-#aboutUs h2 {
-    font-size: 36px;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    margin: 50px auto;
-}
-
-#aboutUs .team-members {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    max-width: 1200px; /* Adjust max-width as needed */
-}
-
-#aboutUs .team-member {
-    width: 18%;
-    background-color: #f0f0f0;
-    border-radius: 10px;
-    padding: 20px;
+    margin-top: 20px;
     text-align: center;
-    width: 273px;
-    height: 434px;
-    margin-right: 20px;
+    margin-bottom: 60px;
 }
 
-#aboutUs .team-member:nth-child(odd) {
+
+#aboutUs h2{
+    font-size: 36px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+#aboutUs h3{
+    color:#FFFFFF;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+#aboutUs p{
+    color:#FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+
+
+#aboutUs  .our_team{
+display: flex;
+width: auto;
+justify-content: center;
+}
+
+ .our_team .team_member{
+    width: 250px;
+    margin:20px;
+    border-radius: 20px;
+    padding: 20px 10px;
+}
+
+
+.team_member:nth-child(even) {
+    background-color: #9A5D4E;
+}
+.team_member:nth-child(odd) {
     background-color: #337D50;
 }
 
-#aboutUs .team-member:nth-child(even) {
-    background-color: #9A5D4E;
-}
 
-#aboutUs .team-member h3 {
-    font-size: 24px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    margin-top: 0;
-}
-
-#aboutUs .circle-image {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: #ccc; 
-    margin: 20px auto;
-}
-
-#aboutUs .team-member p {
-    font-size: 16px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-}
 
 
 /*Footer section*/
