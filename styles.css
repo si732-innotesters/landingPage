@@ -3,7 +3,7 @@ body {
 }
 
 nav {
-    background-color: #005F40;
+    background-color: #064789;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,7 +39,7 @@ nav .left {
 #home {
     position: relative; /* Set the parent container to relative position */
     min-height: 90vh;
-    background-image: url("images/backgroundHome.jpg");
+    background-image: url("images/fondoNuevoBackgroundHome.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -51,7 +51,7 @@ nav .left {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 95, 64, 0.5); 
+    background-color: rgba(234, 240, 249, 0.502); 
 }
 
 
@@ -88,8 +88,8 @@ nav .left {
 
 .button {
     display: inline-block;
-    background-color: white;
-    color: #005F40;
+    background-color: #064789;
+    color: #ffffff;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -101,7 +101,7 @@ nav .left {
 }
 
 .button:hover {
-    background-color: #f0f0f0;
+    background-color:  rgb(57, 104, 143);
 }
 
 /*aAbout the product*/
@@ -150,7 +150,7 @@ nav .left {
 .image-item {
     margin: 30px 30px;
     text-align: center;
-    background-color: #337D50;
+    background-color: #064789;
     border-radius: 20px;
 }
 
@@ -232,7 +232,7 @@ nav .left {
     margin-top: 20px;
     text-align: center;
     margin-bottom: 60px;
-    background-color: #005F40;
+    background-color: #064789;
 }
 
 .dual-font-size {
@@ -312,11 +312,11 @@ flex-wrap: wrap;
 #subscriptions .subNum:nth-child(1) h1,
 #subscriptions .subNum:nth-child(1) h2,
 #subscriptions .subNum:nth-child(1) h4{
-    color: #005F40;
+    color: #064789;
 }
 
 .subNum:nth-child(1) .lucide--circle-check-big  {
-    background-color: #005F40;
+    background-color: #064789;
 }
 
 .subNum:nth-child(1)  {
@@ -324,15 +324,15 @@ flex-wrap: wrap;
 }
 
 .subNum:nth-child(2) {
-    background-color: #9D7C58;
+    background-color: rgb(135, 158, 202);
 }
 
 
 .subNum:nth-child(3) {
-    background-color: #9A5D4E;
+    background-color: #064789;
 }
 .register-btn {
-    background-color: #005F40; 
+    background-color: #064789; 
     border: none; 
     border-radius: 50px; 
     padding: 10px 20px; 
@@ -343,7 +343,7 @@ flex-wrap: wrap;
 }
 
 .register-btn:hover {
-    background-color: #005F40; 
+    background-color: #064789; 
 }
 
 
@@ -406,7 +406,7 @@ flex-wrap: wrap;
 /*Contact us section*/
 
 #contactUs {
-    background: linear-gradient(to bottom, white 20%, #005F40 20%, #005F40 80%, white 80%);
+    background: linear-gradient(to bottom, white 20%, #4682bf 20%, #4682bf 80%, white 80%);
     padding-top: 100px;
     padding-bottom: 100px;
     position: relative;
@@ -448,7 +448,7 @@ flex-wrap: wrap;
 }
 
 .form {
-    background-color: #9A5D4E;
+    background-color: #064789;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     height: 600px; 
@@ -493,7 +493,7 @@ input, textarea {
     border: none; 
     background-color: white; 
     font-size: 24px; 
-    color: #005F40; 
+    color: #3e3d9a; 
     border-radius: 10%; 
     padding: 10px;
     padding-right: 20px;
@@ -556,10 +556,10 @@ flex-wrap: wrap;
 
 
 .team_member:nth-child(even) {
-    background-color: #9A5D4E;
+    background-color: #064789;
 }
 .team_member:nth-child(odd) {
-    background-color: #337D50;
+    background-color: #4682bf;
 }
 
 
@@ -577,7 +577,7 @@ footer {
 }
 
 #footerOne{
-    background-color: #005F40;
+    background-color: #064789;
 }
 
 #footerOne .normal{
